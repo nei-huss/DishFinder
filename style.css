@@ -1,6 +1,7 @@
 img {
-    width: 300px;
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 #TopNavBar {
@@ -11,3 +12,22 @@ img {
 .TopNavBar-wrapper {
     border: 1px solid #000;
 }
+
+.HomePage-wrapper {
+    text-align: left;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Img-container {
+    position: relative;
+    text-align: center;
+}
+
+.headers {
+    position: fixed;
+    top: 50%;
+
+}
+
