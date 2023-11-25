@@ -2,3 +2,12 @@ img {
     width: 300px;
     height: auto;
 }
+
+#TopNavBar {
+    display: flex;
+    justify-content: center;
+}
+
+.TopNavBar-wrapper {
+    border: 1px solid #000;
+}
