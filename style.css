@@ -1,7 +1,7 @@
 img {
     width: 100%;
     height: auto;
-    display: block;
+    background-size: cover;
 }
 
 #TopNavBar {
@@ -25,9 +25,12 @@ img {
     text-align: center;
 }
 
-.headers {
-    position: fixed;
+.headerone {
+    position: absolute;
     top: 50%;
-
 }
 
+.headertwo {
+    position: absolute:
+    top: 50%
+}
