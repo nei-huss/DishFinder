@@ -16,7 +16,10 @@ img {
     margin-bottom: 20px;
 }
 
-#Img-container 
+#Img-container {
+    position: relative;
+    text-align: center;
+}
 
 .headerone {
     position: absolute;
