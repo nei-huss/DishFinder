@@ -23,10 +23,9 @@ img {
 
 .headerone {
     position: absolute;
-    top: 50%;
+    top: 38%;
+    left: 43%;
+    text-align: center;   
 }
 
-.headertwo {
-    position: static;
-    top: 50%
-}
+
