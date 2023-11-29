@@ -11,19 +11,12 @@ img {
 
 .TopNavBar-wrapper {
     border: 1px solid #000;
-}
-
-.HomePage-wrapper {
-    text-align: left;
-    border: 1px solid #000;
-    margin: 10px;
-    padding: 10px;
-}
-
-.Img-container {
     position: relative;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+#Img-container 
 
 .headerone {
     position: absolute;
@@ -31,6 +24,6 @@ img {
 }
 
 .headertwo {
-    position: absolute:
+    position: static;
     top: 50%
 }
