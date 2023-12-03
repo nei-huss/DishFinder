@@ -10,12 +10,18 @@ body {
     background-color: #C1E1C1;
 }
 
-#TopNavBar {
+.TopNavBar {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     font-family: "Papyrus", fantasy;
     padding: 3%;
 }
+
+.TopNavBar ul li {
+    display: inline-block;
+}
+
 
 .TopNavBar-wrapper {
     position: relative;
