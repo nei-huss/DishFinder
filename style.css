@@ -5,7 +5,9 @@ body {
 
 .logo-container {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .logo-image {
@@ -30,7 +32,7 @@ body {
 .TopNavBar-wrapper {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 10px;
     background-color: transparent;
 }
