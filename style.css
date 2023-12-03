@@ -7,7 +7,7 @@ body {
 .TopNavBar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
     font-family: "Papyrus", fantasy;
     padding: 3%;
 }
@@ -24,25 +24,8 @@ body {
     display: inline-block;
     padding: 18px;
     text-transform: uppercase;
+    padding: 10px 10px;
 }
 
 
-.header-container {
-    text-align: center; 
-    padding: 20px 0; 
-}
 
-.headerone {
-    margin: 1; 
-}
-
-.Img-container {
-    text-align: center;
-    margin-top: 20px; 
-}
-
-img {
-    max-width: 100%; 
-    height: auto;
-    border-radius: 25px;
-}
