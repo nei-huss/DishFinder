@@ -31,3 +31,16 @@ body {
     text-decoration: none; 
     color: #333;
 }
+
+.content {
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
