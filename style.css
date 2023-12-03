@@ -1,13 +1,7 @@
-img {
-    width: 700px;
-    height: auto;
-    border-radius: 25px;
-    float: right;
-    margin-left: 20px;
-}
-
 body {
-    background-color: #C1E1C1;
+    background-color: rgb(215, 225, 212);
+    margin: 0; 
+    font-family: Arial, sans-serif; 
 }
 
 .TopNavBar {
@@ -18,13 +12,6 @@ body {
     padding: 3%;
 }
 
-.TopNavBar ul li {
-    display: inline-block;
-    padding: 18px;
-    text-transform: uppercase;
-}
-
-
 .TopNavBar-wrapper {
     position: relative;
     text-align: center;
@@ -33,29 +20,23 @@ body {
     
 }
 
-#Img-container {
-    position: relative;
-    text-align: center;
-    
+
+.header-container {
+    text-align: center; 
+    padding: 20px 0; 
 }
 
 .headerone {
+    margin: 1; 
+}
+
+.Img-container {
     text-align: center;
-
+    margin-top: 20px; 
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
+img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 25px;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 70px;
-    margin-top: 2%;
-    margin-left: 10px;
-
-}
-
