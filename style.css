@@ -30,8 +30,7 @@ body {
 .TopNavBar-wrapper {
     position: relative;
     display: flex;
-    text-align: right;
-    align-items: flex;
+    align-items: center;
     margin-bottom: 10px;
     background-color: transparent;
 }
