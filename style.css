@@ -20,6 +20,12 @@ body {
     
 }
 
+.TopNavBar ul li {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
 
 .header-container {
     text-align: center; 
