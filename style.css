@@ -4,10 +4,8 @@ body {
 }
 
 .logo-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .logo-image {
