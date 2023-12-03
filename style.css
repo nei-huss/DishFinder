@@ -3,27 +3,31 @@ body {
     background-size: cover;
 }
 
-.TopNavBar {
-    display: flex;
+.TopNavBar ul {
+    display: inline-block;
+    list-style: none;
     align-items: center;
-    
+    justify-content: space-between;
     font-family: "Papyrus", fantasy;
-    padding: 3%;
+    padding: 0;
+    margin: 0;
 }
 
 .TopNavBar-wrapper {
     position: relative;
-    text-align: center;
+    text-align: right;
     margin-bottom: 0px;
-    
+    background-color: #fefefe;
 }
 
-.TopNavBar ul li {
+.TopNavBar li {
     display: inline-block;
     padding: 18px;
     text-transform: uppercase;
-    padding: 10px 10px;
+    margin-left: 20px; 
 }
 
-
-
+.TopNavBar a {
+    text-decoration: none; 
+    color: #333;
+}
