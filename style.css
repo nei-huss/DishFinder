@@ -3,12 +3,14 @@ body {
     background-size: cover;
 }
 
+.logo-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .logo-image {
-    width: 50px;
+    width: 150px;
     height: auto;
-    margin-right: 20px;
-    margin-top: 10px;
-    display: inline-block;
     border-radius: 5px;
 }
 
