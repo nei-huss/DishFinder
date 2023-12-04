@@ -1,0 +1,43 @@
+body {
+    background: url(lidye-1Shk_PkNkNw-unsplash.jpg) center center fixed;
+    background-size: cover;
+}
+
+.TopNavBar ul {
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Papyrus", fantasy;
+    padding: 0;
+    margin: 0;
+}
+
+.TopNavBar-wrapper {
+    position: relative;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.TopNavBar li {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+    margin-left: 20px; 
+}
+
+.TopNavBar a {
+    text-decoration: none; 
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.content h1 {
+    color: white; 
+}
+
+.content-and-search-box {
+    position: center;
+}
+
