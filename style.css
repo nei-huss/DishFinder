@@ -6,12 +6,12 @@ body {
 .logo-container {
     position: absolute;
     top: 10%; 
-    left: 10%;
+    left: 5%;
     transform: translateX(-50%);
 }
 
 .logo-image {
-    width: 150px;
+    width: 130px;
     height: auto;
     border-radius: 5px;
     display: block;
