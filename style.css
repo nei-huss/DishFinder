@@ -57,7 +57,7 @@ body {
 
 .content {
     position: absolute;
-    top: 50%; 
+    top: 35%; 
     left: 50%;
     transform: translateX(-50%);
 }
