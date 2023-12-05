@@ -7,12 +7,13 @@ searchButton.addEventListener("click", getDishList);
 function getDishList () {
     let searchText = document.getElementById("search-input").value.trim();
     fetch(`http://www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
-
         .then(response => response.json())
         .then(data => {
-            let html = ""; 
-            if(data.meals){
-                data.meals.forEach(meal => {
+            if (data.meals) {
+                const maxDishesToShow = 6;
+                const dishesToShow = data.meals.slice(0, maxDishesToShow);
+                let html = "";
+                dishesToShow.forEach(meal => {
                     html += `
                     <div class = "meal-item" data-id = "${meal.idMeal}">
                     <div class = "meal-img" >
@@ -22,13 +23,12 @@ function getDishList () {
                     <h3>${meal.strMeal}</h3>
                     <a href = "#" class ="recipe-button">Recipe</a>
                 </div>
-            </div>     
-                    `;
-
-                });
-            }  
+            </div>`;
+            });
             dishList.innerHTML = html;
+        } else {
+            dishList.innerHTML ="No Dishes Found!";
+            }
         }) 
         .catch(error => console.error('Error fetching data:', error));    
-
 }
