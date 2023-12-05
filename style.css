@@ -44,20 +44,21 @@ body {
     padding: 10px;
 }
 
-.TopNavBar li {
+.left-links,
+.right-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.left-links li,
+.right-links li {
     padding: 18px;
     text-transform: uppercase;
 }
 
-.TopNavBar li:not(:last-child) {
-    margin-right: 20px;
-}
-
-.TopNavBar ul li {
-    display: inline;
-    margin-right: 20px; 
- }
- 
 .TopNavBar a {
     text-decoration: none; 
     color: #ffffff;
