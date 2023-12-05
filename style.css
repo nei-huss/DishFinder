@@ -4,12 +4,13 @@ body {
     padding: 0;
 }
 
- .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1
- }
+.logo-container {
+    transform: translate(-50%, 50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    flex: 1;
+}
 
 .logo-image {
     width: 130px;
@@ -20,10 +21,11 @@ body {
 }
 
 .TopNavBar {
-    top: 0; 
-    right: 20px;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: transparent;
+    padding: 10px;
 }
 
 .TopNavBar ul {
