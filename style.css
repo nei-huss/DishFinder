@@ -1,61 +1,42 @@
 body {
     background: url(lidye-1Shk_PkNkNw-unsplash.jpg) center center fixed;
     background-size: cover;
-    padding: 0;
 }
 
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-.logo-image {
-    width: 130px;
-    height: auto;
-    border-radius: 5px;
-    display: block;
-    margin: 0 auto;
-}
-
-.TopNavBar {
-    top: 0; 
-    right: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.TopNavBar ul {
-    font-family: "Papyrus", fantasy;
-    display: inline;
-    padding: 0;
+body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
+    padding: 0;
+ }
+ 
+ .TopNavBar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    padding: 10px; 
+ }
+ 
+ .logo-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex: 1; 
+ }
+ 
+ .logo-image {
+    max-width: 100px; 
+ }
+ 
+ .TopNavBar ul {
     list-style-type: none;
-}
-
-
-.TopNavBar-wrapper {
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        background-color: transparent; 
-        padding: 10px;
-}
-
-
-.TopNavBar a {
-    text-decoration: none; 
-    color: #ffffff;
-    font-size: 18px;
-}
+ }
  
  .TopNavBar ul li {
     display: inline;
-    margin-right: 20px; 
+    margin-right: 20px;
  }
-
+ 
  .content {
     padding: 20px; 
  }
-
+ 
