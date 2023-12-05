@@ -32,6 +32,7 @@ body::before {
     width: 100%;
     margin: 10px;
     box-sizing: border-box;
+    color:#ffffff;
 }
 
 .meal-name {
@@ -52,10 +53,18 @@ h1 {
     text-align: center;
 }
 
+.search-content{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10rem;
+
 .Dish-Result {
     text-align: center;
 }
-
 .TopNavBar ul {
     display: inline-block;
     list-style: none;
@@ -83,8 +92,9 @@ h1 {
 }
 
 
+
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     background: none;
 }
@@ -92,5 +102,3 @@ h1 {
 .content-and-search-box {
     text-align: center;
 }
-
-
