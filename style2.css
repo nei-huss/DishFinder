@@ -27,42 +27,41 @@ h1 {
 .Dish-Result {
     text-align: center;
 }
-
 .TopNavBar ul {
     display: inline-block;
     list-style: none;
     align-items: center;
-    justify-content: space-between;
-    font-family: "Papyrus", fantasy;
+    background-color: transparent;
+    padding: 10px;
+    position: relative;
+}
+
+#TopNavBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#TopNavBar ul {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.TopNavBar-wrapper {
-    position: relative;
-    text-align: right;
-    margin-bottom: 10px;
-    background-color: transparent;
-}
-
-.TopNavBar li {
-    display: inline-block;
-    padding: 18px;
-    text-transform: uppercase;
+#TopNavBar li {
+    display: inline-block; 
     margin-left: 20px; 
 }
 
-.TopNavBar a {
-    text-decoration: none; 
-    color: #ffffff;
-    font-size: 18px;
-}
 
-.content h1 {
-    color: white; 
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .content-and-search-box {
     text-align: center;
 }
 
+
+}
