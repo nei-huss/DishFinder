@@ -1,4 +1,15 @@
+.meal-img img {
+    width: 30%; 
+    height: auto; 
+}
 
+.meal-item {
+    display: flex;
+}
+
+body img {
+    background-size: cover;
+}
 .TopNavBar ul {
     display: inline-block;
     list-style: none;

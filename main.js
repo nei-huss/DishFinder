@@ -10,15 +10,15 @@ function getDishList () {
         .then(response => response.json())
         .then(data => {
             if (data.meals) {
-                const maxDishesToShow = 6;
+                const maxDishesToShow = 15;
                 const dishesToShow = data.meals.slice(0, maxDishesToShow);
                 let html = "";
                 dishesToShow.forEach(meal => {
                     html += `
                     <div class = "meal-item" data-id = "${meal.idMeal}">
-                    <div class = "meal-img" >
+                    <div class = "meal-img">
                     <img src = "${meal.strMealThumb}" alt = "food">
-                    </div>
+                    
                 <div class = "meal-name" >
                     <h3>${meal.strMeal}</h3>
                 </div>
