@@ -1,12 +1,12 @@
 #Dish {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    column-count: 3;
+    column-gap: 20px;
+    margin: 0 auto;
 }
 
-
 .meal-item {
-    width: calc(33.33% - 20px);
+    display: inline-block;
+    width: 100%;
     margin: 10px;
     box-sizing: border-box;
 }
