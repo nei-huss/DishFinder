@@ -1,17 +1,18 @@
 body {
     background: url(lidye-1Shk_PkNkNw-unsplash.jpg) center center fixed;
     background-size: cover;
+    padding: 0;
 }
 
-.logo-container {
-    position: absolute;
-    top: 0; 
-    left: 50%;
-    transform: translateX(-50%);
-}
+ .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1
+ }
 
 .logo-image {
-    width: 230px;
+    width: 130px;
     height: auto;
     border-radius: 5px;
     display: block;
@@ -19,7 +20,6 @@ body {
 }
 
 .TopNavBar {
-    position: absolute;
     top: 0; 
     right: 20px;
     display: flex;
@@ -27,28 +27,35 @@ body {
 }
 
 .TopNavBar ul {
-    font-family: "Papyrus", fantasy;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 
 .TopNavBar-wrapper {
-    position: relative;
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
     background-color: transparent;
+    padding: 10px;
 }
 
 .TopNavBar li {
-    display: inline-block;
     padding: 18px;
     text-transform: uppercase;
-    margin-left: 20px; 
 }
 
+.TopNavBar li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.TopNavBar ul li {
+    display: inline;
+    margin-right: 20px; 
+ }
+ 
 .TopNavBar a {
     text-decoration: none; 
     color: #ffffff;
@@ -57,16 +64,13 @@ body {
 
 .content {
     position: absolute;
-    top: 0; 
+    top: 50%; /* Adjust the top position for centering */
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align text */
 }
 
-.content h3 {
+.content h3,.content p {
     color: white;
+    padding: 0
 }
-
-.content p {
-    color: white;
-}
-
