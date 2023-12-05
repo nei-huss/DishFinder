@@ -6,11 +6,7 @@ searchButton.addEventListener("click", getDishList);
 
 function getDishList () {
     let searchText = document.getElementById("search-input").value.trim();
-<<<<<<< HEAD
-    fetch(`http://www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
-=======
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
->>>>>>> 3db8281e06528578c3ea024091a2f6864015456e
         .then(response => response.json())
         .then(data => {
             let html = ""; 
@@ -25,18 +21,16 @@ function getDishList () {
                     <h3>${meal.strMeal}</h3>
                     <a href = "#" class ="recipe-button">Recipe</a>
                 </div>
-            < div>     
+            </div>     
                     `;
 
                 });
-            }  
-            dishList.innerHTML = html;
+            } 
 
-<<<<<<< HEAD
+            dishList.innerHTML = html;
         }) 
-        .catch(error => console.error('Error fetching data:', error));    
-=======
-        });
->>>>>>> 3db8281e06528578c3ea024091a2f6864015456e
+        .catch(error => console.error('Error fetching data:', error));
+        
+
 }
 
