@@ -4,12 +4,13 @@ body {
     padding: 0;
 }
 
- .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1
- }
+.logo-container {
+    transform: translate(-50%, 50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    flex: 1;
+}
 
 .logo-image {
     width: 130px;
@@ -20,10 +21,11 @@ body {
 }
 
 .TopNavBar {
-    top: 0; 
-    right: 20px;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: transparent;
+    padding: 10px;
 }
 
 .TopNavBar ul {
@@ -42,20 +44,21 @@ body {
     padding: 10px;
 }
 
-.TopNavBar li {
+.left-links,
+.right-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.left-links li,
+.right-links li {
     padding: 18px;
     text-transform: uppercase;
 }
 
-.TopNavBar li:not(:last-child) {
-    margin-right: 20px;
-}
-
-.TopNavBar ul li {
-    display: inline;
-    margin-right: 20px; 
- }
- 
 .TopNavBar a {
     text-decoration: none; 
     color: #ffffff;
