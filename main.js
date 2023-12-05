@@ -1,5 +1,5 @@
 const searchButton = document.getElementById("search-button");
-const dishList= document.getElementById("dish");
+const dishList = document.getElementById("dish");
 const dishDetails = document.querySelector(".dish-content");
 
 searchButton.addEventListener("click", getDishlist);
