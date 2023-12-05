@@ -19,7 +19,6 @@ body {
 }
 
 .TopNavBar {
-    position: absolute;
     top: 0; 
     right: 20px;
     display: flex;
