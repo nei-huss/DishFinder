@@ -5,15 +5,12 @@ body {
 }
 
 .logo-container {
-    transform: translate(-50%, 50%);
-    position: absolute;
     top: 0;
-    left: 50%;
-    flex: 1;
+    left: 0;
 }
 
 .logo-image {
-    width: 130px;
+    width: 150px;
     height: auto;
     border-radius: 5px;
     display: block;
@@ -63,17 +60,29 @@ body {
     text-decoration: none; 
     color: #ffffff;
     font-size: 18px;
+    font-family: 'EB Garamond', serif;
 }
 
 .content {
     position: absolute;
-    top: 50%; /* Adjust the top position for centering */
+    top: 40%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; /* Center-align text */
+    text-align: center; 
+    
 }
 
-.content h3,.content p {
+.content h3 {
     color: white;
-    padding: 0
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+}
+
+.content p {
+    color: white;
+    margin-top: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
 }
