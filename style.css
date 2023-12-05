@@ -19,10 +19,11 @@ body {
 
 .TopNavBar {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
     background-color: transparent;
     padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .TopNavBar ul {
@@ -58,9 +59,9 @@ body {
 
 .TopNavBar a {
     text-decoration: none; 
-    color: #ffffff;
+    color: #efc75e;
     font-size: 18px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .content {
@@ -74,16 +75,16 @@ body {
 }
 
 .content h3 {
-    color: white;
+    color: #efc75e;
     padding: 0;
     margin-bottom: 10px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 35px;
 }
 
 .content p {
-    color: white;
+    color: #efc75e;
     margin-top: 0;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 25px;
 }

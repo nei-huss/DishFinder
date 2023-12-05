@@ -6,6 +6,7 @@ body {
     margin: 10%;
 }
 
+
 body::before {
     margin: 2;
     content: "";
@@ -17,7 +18,7 @@ body::before {
     background-image: url('lidye-1Shk_PkNkNw-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(10px);
+    filter: blur(7px);
     z-index: -1;
 }
 
@@ -41,7 +42,7 @@ body::before {
 }
 
 h1 {
-    color: white;
+    color: #efc75e;
     text-align: center;
 }
 
@@ -52,49 +53,92 @@ h1 {
 
 .content-and-search-box {
     text-align: center;
-}
-
-.search-content{
-    padding: 0 1rem;
-    font-size: 1.1rem;
-    font-family: inherit;
-    outline: 0;
-    border: 1.5px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    border-radius: 10rem;
+    margin-bottom: 10%;
 }
 
 .Dish-Result {
     text-align: center;
 }
+
+.logo-container {
+    top: 0;
+    left: 0;
+}
+
+.logo-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.TopNavBar {
+    display: flex;
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 .TopNavBar ul {
-    display: inline-block;
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.TopNavBar-wrapper {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: transparent;
     padding: 10px;
-    position: relative;
 }
 
-#TopNavBar {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#TopNavBar ul {
-    list-style: none;
-    padding: 0;
+.left-links,
+.right-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
     margin: 0;
+    padding: 0;
 }
 
-#TopNavBar li {
-    display: inline-block; 
-    margin-left: 20px; 
+.left-links li,
+.right-links li {
+    padding: 18px;
+    text-transform: uppercase;
 }
 
+.TopNavBar a {
+    text-decoration: none; 
+    color: #efc75e;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
 
-
-.content-and-search-box {
+.search-content{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
     text-align: center;
+    outline: 0;
+    border: 1.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10rem;
+    height: 35px;
+    width: 200px;
+}
+
+.searchButton{
+    padding: 0 1rem;
+    outline: 0;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5rem;
+    height: 35px;
+    width: 45px;
+    
 }
