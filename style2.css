@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 .meal-img img {
     width: 100%;
     height: auto;
@@ -18,7 +22,6 @@
 
 .content-and-search-box {
     text-align: center;
-
 }
 
 .Dish-Result {
