@@ -1,12 +1,12 @@
 const searchButton = document.getElementById("search-button");
-const dishList = document.getElementById("dish");
+const dishList = document.getElementById("Dish");
 const dishDetails = document.querySelector(".dish-content");
 
-searchButton.addEventListener("click", getdishList);
+searchButton.addEventListener("click", getDishList);
 
-function getdishList () {
+function getDishList () {
     let searchText = document.getElementById("search-input").value.trim();
-    fetch(`www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
+    fetch(`http://www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
         .then(response => response.json())
         .then(data => {
             let html = ""; 
@@ -29,6 +29,7 @@ function getdishList () {
 
             dishList.innerHTML = html;
 
-        })     
+        }) 
+        .catch(error => console.error('Error fetching data:', error));    
 }
 
