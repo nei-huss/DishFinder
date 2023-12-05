@@ -12,9 +12,7 @@ function getDishList () {
             if (data.meals) {
                 const dishes = data.meals;
                 const dishesPerRow = 3;
-
                 let html = "<div class='row'>";
-
                 dishes.forEach((meal, index) => {
                     html += `
                         <div class = "meal-item" data-id = "${meal.idMeal}">
@@ -35,8 +33,8 @@ function getDishList () {
 
             dishList.innerHTML = html;
         } else {
-            dishList.innerHTML ="No Dishes Found!";
+            dishList.innerHTML ="No Dishes Available";
             }
         }) 
-        .catch(error => console.error('Error fetching data:', error));
+        .catch(error => console.error('Error Error Error!', error));
 }
