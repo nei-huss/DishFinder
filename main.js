@@ -21,7 +21,6 @@ function getDishList () {
                     </div>
                 <div class = "meal-name" >
                     <h3>${meal.strMeal}</h3>
-                    <a href = "#" class ="recipe-button">Recipe</a>
                 </div>
             </div>`;
             });
