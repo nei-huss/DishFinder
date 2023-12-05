@@ -10,28 +10,23 @@ function getDishList () {
         .then(response => response.json())
         .then(data => {
             if (data.meals) {
-<<<<<<< HEAD
-                const maxDishesToShow = 15;
-                const dishesToShow = data.meals.slice(0, maxDishesToShow);
-                let html = "";
-                dishesToShow.forEach(meal => {
-=======
                 const dishes = data.meals;
                 const dishesPerRow = 3;
 
                 let html = "<div class='row'>";
 
                 dishes.forEach((meal, index) => {
->>>>>>> e0bba9a8923afab21f22b8148671b232f84bd823
                     html += `
-                    <div class = "meal-item" data-id = "${meal.idMeal}">
-                    <div class = "meal-img">
-                    <img src = "${meal.strMealThumb}" alt = "food">
-                    
-                <div class = "meal-name" >
-                    <h3>${meal.strMeal}</h3>
-                </div>
-            </div>`;
+                    <div class = "meal-wrapper"
+                        <div class = "meal-item" data-id = "${meal.idMeal}">
+                            <div class = "meal-img" >
+                                <img src = "${meal.strMealThumb}" alt = "food">
+                            <div class = "meal-name" >
+                                <h3>${meal.strMeal}</h3>
+                            </div>
+                            </div>
+                        </div>
+                    </div>`;
 
             if ((index + 1) % dishesPerRow === 0 && index !== dishes.length - 1) {
                 html += "</div><div class='row'>";
@@ -45,5 +40,5 @@ function getDishList () {
             dishList.innerHTML ="No Dishes Found!";
             }
         }) 
-        .catch(error => console.error('Error fetching data:', error));    
+        .catch(error => console.error('Error fetching data:', error));
 }

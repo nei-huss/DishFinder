@@ -3,8 +3,8 @@
     height: auto; 
 }
 
-.meal-item {
-    display: flex;
+.meal-wrapper {
+    display: grid;
 }
 
 body img {
@@ -50,7 +50,6 @@ body img {
 
 .meal-img img {
     width: 20%;
-    display: block;
     height: auto;
 
 }
