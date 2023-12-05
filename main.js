@@ -17,13 +17,11 @@ function getDishList () {
 
                 dishes.forEach((meal, index) => {
                     html += `
-                    <div class = "meal-wrapper"
                         <div class = "meal-item" data-id = "${meal.idMeal}">
                             <div class = "meal-img" >
                                 <img src = "${meal.strMealThumb}" alt = "food">
                             <div class = "meal-name" >
                                 <h3>${meal.strMeal}</h3>
-                            </div>
                             </div>
                         </div>
                     </div>`;
