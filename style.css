@@ -6,8 +6,9 @@ body {
 
  .logo-container {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
+    flex: 1
  }
 
 .logo-image {
@@ -26,26 +27,28 @@ body {
 }
 
 .TopNavBar ul {
-    font-family: "Papyrus", fantasy;
-    display: inline;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 
 .TopNavBar-wrapper {
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        background-color: transparent; 
-        padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
 }
 
 .TopNavBar li {
-    display: inline-block;
     padding: 18px;
     text-transform: uppercase;
-    margin-left: 20px; 
+}
+
+.TopNavBar li:not(:last-child) {
+    margin-right: 20px;
 }
 
 .TopNavBar ul li {
@@ -61,17 +64,13 @@ body {
 
 .content {
     position: absolute;
-    top: 35%; 
+    top: 50%; /* Adjust the top position for centering */
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align text */
 }
 
-.content h3 {
-    color: white;
-    padding: 0
-}
-
-.content p {
+.content h3,.content p {
     color: white;
     padding: 0
 }
