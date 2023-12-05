@@ -6,7 +6,7 @@ searchButton.addEventListener("click", getdishList);
 
 function getdishList () {
     let searchText = document.getElementById("search-input").value.trim();
-    fetch(`www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchText}`)
         .then(response => response.json())
         .then(data => {
             let html = ""; 
@@ -25,10 +25,9 @@ function getdishList () {
                     `;
 
                 });
-            }
-
+            }  
             dishList.innerHTML = html;
 
-        })     
+        });
 }
 
