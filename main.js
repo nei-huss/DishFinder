@@ -20,10 +20,10 @@ function getDishList () {
                         <div class = "meal-item" data-id = "${meal.idMeal}">
                             <div class = "meal-img" >
                                 <img src = "${meal.strMealThumb}" alt = "food">
+                            </div>   
                             <div class = "meal-name" >
                                 <h3>${meal.strMeal}</h3>
                             </div>
-                        </div>
                     </div>`;
 
             if ((index + 1) % dishesPerRow === 0 && index !== dishes.length - 1) {

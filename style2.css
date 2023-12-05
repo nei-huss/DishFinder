@@ -1,16 +1,30 @@
-.meal-img img {
-    width: 30%; 
-    height: auto; 
+#Dish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 .meal-item {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
 }
 
-body img {
-    background-size: cover;
+.meal-img img {
+    width: 100%;
+    height: auto;
 }
+
+.content-and-search-box {
+    text-align: center;
+
+}
+
+.Dish-Result {
+    text-align: center;
+}
+
 .TopNavBar ul {
     display: inline-block;
     list-style: none;
@@ -49,8 +63,3 @@ body img {
     text-align: center;
 }
 
-.meal-img img {
-    width: 20%;
-    height: auto;
-
-}
