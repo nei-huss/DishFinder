@@ -28,6 +28,7 @@ body::before {
     width: 100%;
     margin: 10px;
     box-sizing: border-box;
+    color:#ffffff;
 }
 
 h1 {
@@ -66,8 +67,8 @@ h1 {
 }
 
 .TopNavBar-wrapper {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    justify-content: right;
     align-items: center;
     background-color: transparent;
     padding: 10px;
@@ -88,17 +89,16 @@ h1 {
 
 #TopNavBar li {
     display: inline-block; 
-    margin-left: 20px; }
+    margin-left: 20px; 
+}
 
 
 
-.h1 {
-    color: rgb(0, 0, 0);
+h1 {
+    color: rgb(37, 36, 36);
     text-align: center;
 }
 
 .content-and-search-box {
     text-align: center;
 }
-
-
