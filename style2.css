@@ -1,9 +1,11 @@
 
+
 body {
     position: relative;
 }
 
 body::before {
+    margin: 2;
     content: "";
     position: fixed;
     top: 0;
@@ -30,6 +32,10 @@ body::before {
     box-sizing: border-box;
 }
 
+.meal-name {
+    color: white;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -47,6 +53,7 @@ h1 {
 .Dish-Result {
     text-align: center;
 }
+
 .TopNavBar ul {
     display: inline-block;
     list-style: none;
@@ -75,8 +82,9 @@ h1 {
 
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
+    background: none;
 }
 
 .content-and-search-box {
