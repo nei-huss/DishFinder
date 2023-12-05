@@ -1,7 +1,9 @@
-
-
 body {
     position: relative;
+}
+
+.everything {
+    margin: 10%;
 }
 
 body::before {
