@@ -37,6 +37,7 @@ body::before {
 
 .meal-name {
     color: white;
+    text-align: center;
 }
 
 h1 {
@@ -61,6 +62,7 @@ h1 {
     border: 1.5px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     border-radius: 10rem;
+}
 
 .Dish-Result {
     text-align: center;
