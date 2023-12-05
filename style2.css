@@ -4,7 +4,6 @@
     justify-content: space-around;
 }
 
-
 .meal-item {
     width: calc(33.33% - 20px);
     margin: 10px;
@@ -21,12 +20,30 @@
 
 }
 
+.search-content{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1.5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10rem;
+
 .Dish-Result {
     text-align: center;
 }
-.TopNavBar ul {
-    display: inline-block;
-    list-style: none;
+
+
+#TopNavBar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom: none; 
+}
+
+.TopNavBar-wrapper {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     background-color: transparent;
     padding: 10px;
@@ -47,11 +64,11 @@
 
 #TopNavBar li {
     display: inline-block; 
-    margin-left: 20px; 
-}
+    margin-left: 20px; }
 
 
-h1 {
+
+.h1 {
     color: rgb(0, 0, 0);
     text-align: center;
 }
